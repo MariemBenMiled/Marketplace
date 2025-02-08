@@ -1,0 +1,38 @@
+/* Header.css */
+.dropdown-menu {
+    display: none; /* Hide dropdown initially */
+    position: absolute; /* Position it correctly */
+    background-color: #ffffff; /* Dropdown background */
+    border: 1px solid #dee2e6; /* Border for dropdown */
+    border-radius: 0.25rem; /* Rounded corners */
+    z-index: 1000; /* Ensure it appears above other elements */
+  }
+  
+  .dropdown-menu.show {
+    display: block; /* Show dropdown when active */
+  }
+  
+  .dropdown-item {
+    color: #212529; /* Dropdown item text color */
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f8f9fa; /* Hover background for dropdown items */
+    color: #007bff; /* Hover text color */
+  }
+  
+  /* Other existing styles for the header */
+  .header {
+    background-color: #343a40; /* Dark background */
+    color: white; /* Text color */
+  }
+  
+  .nav-link {
+    color: white; /* Link color */
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* Hover color */
+  }
+  
